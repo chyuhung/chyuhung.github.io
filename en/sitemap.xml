@@ -10,11 +10,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://chyuhung.github.io/ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://chyuhung.github.io/en/categories/"
                 />
@@ -27,11 +22,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="https://chyuhung.github.io/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://chyuhung.github.io/en/"
                 />
@@ -41,11 +31,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://chyuhung.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://chyuhung.github.io/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
