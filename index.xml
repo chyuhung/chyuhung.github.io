@@ -9,20 +9,20 @@
     <title>index</title>
     <link>https://chyuhung.github.io/</link>
     <guid>https://chyuhung.github.io/</guid>
-    <description>Hi , Welcome! 你好谢谢！ 我的第一篇 git命令 hello! 加了一句测试.</description>
-    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+    <description>Hi , Welcome! 你好谢谢！ 我的第一篇 git命令 测试文章：linux基础命令 hello! 加了一句测试.</description>
+    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
   </item><item>
     <title>linux基础命令</title>
     <link>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</guid>
     <description>linux基础命令 // 切换到root用户 sudo -i // 切换到root用户 su // 切换到root用户 sudo su 图片测试 代码测试 #include &lt;stdio.h&gt; int main() { printf(&quot;Hello, World!\n&quot;); return 0; } 链接测试 链接名称 维基百科 维基百科 公式测试 V1​×V2​=​i∂u∂X​∂v∂X​​j∂u∂Y​∂v∂Y​​k00​​ 表格测试 表头1表头2单元格1单元格2单元格3单元格4 列表测试 列表项1 列表项2 列表项3 引用测试 这是一个引用。 粗体测试 这是粗体文本。 斜体测试 这是斜体文本。 删除线测试 这是删除线文本。 代码块测试 #include &lt;stdio.</description>
-    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
   </item><item>
     <title>git命令</title>
     <link>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</guid>
     <description>常规命令 查看所有分支 git ls-remote --heads ssh://git@10.254.180.148:20495/PZCPHPT.ZDHBS/auto_upgrade_script.git 克隆最近一次提交 git clone --depth=1 ssh://git@10.254.180.</description>
-    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
   </item>
     </channel>
   </rss>
