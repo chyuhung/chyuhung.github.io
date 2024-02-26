@@ -10,19 +10,13 @@
     <link>https://chyuhung.github.io/git%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/git%E5%91%BD%E4%BB%A4</guid>
     <description>常规命令 查看所有分支 git ls-remote --heads ssh://git@10.254.180.148:20495/PZCPHPT.ZDHBS/auto_upgrade_script.git 克隆最近一次提交 git clone --depth=1 ssh://git@10.254.180.</description>
-    <pubDate>Mon, 26 Feb 2024 08:59:14 GMT</pubDate>
-  </item><item>
-    <title>pgsql</title>
-    <link>https://chyuhung.github.io/gsql</link>
-    <guid>https://chyuhung.github.io/gsql</guid>
-    <description>来一张图片测试 .</description>
-    <pubDate>Mon, 26 Feb 2024 08:59:14 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 09:04:13 GMT</pubDate>
   </item><item>
     <title>welcome to my digital garden</title>
     <link>https://chyuhung.github.io/</link>
     <guid>https://chyuhung.github.io/</guid>
-    <description>数字花园 是一种全新的尝试，既然叫做数字花园，那么我希望它应该向阳而肆意生长.</description>
-    <pubDate>Mon, 26 Feb 2024 08:59:14 GMT</pubDate>
+    <description>数字花园 是我的一种全新的尝试，既然叫做数字花园，那么我希望它应该向阳而肆意生长，摆脱苦恼于烦闷！ 数字花园搭建流程参考官方文档 Welcome to Quartz 4 (jzhao.xyz).</description>
+    <pubDate>Mon, 26 Feb 2024 09:04:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
