@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🪴 Quartz 4.0</title>
+      <title>🪴 The Digital Garden of Cheng</title>
       <link>https://chyuhung.github.io</link>
-      <description>最近的10条笔记 on 🪴 Quartz 4.0</description>
+      <description>最近的10条笔记 on 🪴 The Digital Garden of Cheng</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>index</title>
     <link>https://chyuhung.github.io/</link>
     <guid>https://chyuhung.github.io/</guid>
-    <description>Hi , Welcome! 你好谢谢！ 我的第一篇 git命令 测试文章：linux基础命令 hello! 加了一句测试.</description>
-    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
+    <description>Hi , Welcome! 你好谢谢！ 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） 自动化和编程 自动化工具（如 Ansible、Chef、Puppet） 脚本编程和编写自动化脚本 版本控制系统（如 Git、SVN） git命令 云计算和虚拟化 云计算基础概念和服务模型（如 IaaS、PaaS、SaaS） 虚拟化技术（如 VMware、KVM、Docker） 容器编排和管理工具（如 Kubernetes） 应用部署和容灾 Web 服务器和应用服务器的部署和配置（如 Nginx、Apache、Tomcat） 高可用性和容灾技术（如负载均衡、故障转移、备份恢复） 监控和日志管理 监控系统的搭建和配置（如 Zabbix、Prometheus） 日志管理和分析工具（如 ELK Stack、Splunk） 安全和权限管理 系统安全和漏洞管理 访问控制和权限管理（如 LDAP、RBAC） 防火墙和网络安全配置 网络和存储管理 网络设备的配置和管理 存储管理和数据备份策略 数据库管理（如 MySQL、PostgreSQL、MongoDB） 故障排除和性能优化 系统故障排查和调优 性能监测和性能优化技术 容量规划和资源管理 文档和沟通能力 技术文档编写和维护 团队协作和沟通能力 问题解决和故障处理技巧 .</description>
+    <pubDate>Mon, 26 Feb 2024 08:17:01 GMT</pubDate>
   </item><item>
     <title>linux基础命令</title>
     <link>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</guid>
     <description>linux基础命令 // 切换到root用户 sudo -i // 切换到root用户 su // 切换到root用户 sudo su 图片测试 代码测试 #include &lt;stdio.h&gt; int main() { printf(&quot;Hello, World!\n&quot;); return 0; } 链接测试 链接名称 维基百科 维基百科 公式测试 V1​×V2​=​i∂u∂X​∂v∂X​​j∂u∂Y​∂v∂Y​​k00​​ 表格测试 表头1表头2单元格1单元格2单元格3单元格4 列表测试 列表项1 列表项2 列表项3 引用测试 这是一个引用。 粗体测试 这是粗体文本。 斜体测试 这是斜体文本。 删除线测试 这是删除线文本。 代码块测试 #include &lt;stdio.</description>
-    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 08:17:01 GMT</pubDate>
   </item><item>
     <title>git命令</title>
     <link>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</guid>
     <description>常规命令 查看所有分支 git ls-remote --heads ssh://git@10.254.180.148:20495/PZCPHPT.ZDHBS/auto_upgrade_script.git 克隆最近一次提交 git clone --depth=1 ssh://git@10.254.180.</description>
-    <pubDate>Mon, 26 Feb 2024 05:06:47 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 08:17:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
