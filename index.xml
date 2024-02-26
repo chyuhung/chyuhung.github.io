@@ -1,18 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hugo Book</title>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 Quartz 4.0</title>
+      <link>https://chyuhung.github.io</link>
+      <description>最近的10条笔记 on 🪴 Quartz 4.0</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
     <link>https://chyuhung.github.io/</link>
-    <description>Recent content on Hugo Book</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <atom:link href="https://chyuhung.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>介绍</title>
-      <link>https://chyuhung.github.io/docs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chyuhung.github.io/docs/</guid>
-      <description>中文索引页 # Astris ipse furtiva # Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut olivae sensit arma sorori deducit, inesset crudus, ego vetuere aliis, modo arsit? Utinam rapta fiducia valuere litora adicit cursu, ad facies&#xA;Suis quot vota # Ea furtique risere fratres edidit terrae magis. Colla tam mihi tenebat: miseram excita suadent es pecudes iam. Concilio quam velatus posset ait quod nunc! Fragosis suae dextra geruntur functus vulgata.</description>
-    </item>
-  </channel>
-</rss>
+    <guid>https://chyuhung.github.io/</guid>
+    <description>Hi , Welcome! 你好谢谢！ 我的第一篇 git命令 hello! 加了一句测试.</description>
+    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+  </item><item>
+    <title>linux基础命令</title>
+    <link>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</link>
+    <guid>https://chyuhung.github.io/linux/linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4</guid>
+    <description>linux基础命令 // 切换到root用户 sudo -i // 切换到root用户 su // 切换到root用户 sudo su 图片测试 代码测试 #include &lt;stdio.h&gt; int main() { printf(&quot;Hello, World!\n&quot;); return 0; } 链接测试 链接名称 维基百科 维基百科 公式测试 V1​×V2​=​i∂u∂X​∂v∂X​​j∂u∂Y​∂v∂Y​​k00​​ 表格测试 表头1表头2单元格1单元格2单元格3单元格4 列表测试 列表项1 列表项2 列表项3 引用测试 这是一个引用。 粗体测试 这是粗体文本。 斜体测试 这是斜体文本。 删除线测试 这是删除线文本。 代码块测试 #include &lt;stdio.</description>
+    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+  </item><item>
+    <title>git命令</title>
+    <link>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</link>
+    <guid>https://chyuhung.github.io/%E5%B7%A5%E5%85%B7/git/git%E5%91%BD%E4%BB%A4</guid>
+    <description>常规命令 查看所有分支 git ls-remote --heads ssh://git@10.254.180.148:20495/PZCPHPT.ZDHBS/auto_upgrade_script.git 克隆最近一次提交 git clone --depth=1 ssh://git@10.254.180.</description>
+    <pubDate>Mon, 26 Feb 2024 05:03:34 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
