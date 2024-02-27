@@ -6,23 +6,29 @@
       <description>最近的10条笔记 on 🪴 十二万光年</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>new_blog</title>
+    <title>{{tp_title}}</title>
     <link>https://chyuhung.github.io/template/new_blog</link>
     <guid>https://chyuhung.github.io/template/new_blog</guid>
-    <description> title: Title of the page. If it isn’t provided, Quartz will use the name of the file as the title. description: Description of the page used for link previews.</description>
-    <pubDate>Tue, 27 Feb 2024 02:43:06 GMT</pubDate>
+    <description></description>
+    <pubDate>Tue, 27 Feb 2024 02:48:00 GMT</pubDate>
   </item><item>
     <title>git命令</title>
     <link>https://chyuhung.github.io/git%E5%91%BD%E4%BB%A4</link>
     <guid>https://chyuhung.github.io/git%E5%91%BD%E4%BB%A4</guid>
     <description>常规命令 查看所有分支 git ls-remote --heads ssh://git@10.254.180.148:20495/PZCPHPT.ZDHBS/auto_upgrade_script.git 克隆最近一次提交 git clone --depth=1 ssh://git@10.254.180.</description>
-    <pubDate>Tue, 27 Feb 2024 02:42:47 GMT</pubDate>
+    <pubDate>Tue, 27 Feb 2024 02:47:44 GMT</pubDate>
   </item><item>
     <title>welcome to my digital garden</title>
     <link>https://chyuhung.github.io/</link>
     <guid>https://chyuhung.github.io/</guid>
     <description>数字花园 是我的一种全新的尝试，既然叫做数字花园，那么我希望它应该向阳而肆意生长，摆脱苦恼与烦闷！ 搭建数字花园（Quartz）官方文档 Welcome to Quartz 4 (jzhao.xyz) 我的数字花园部署结构 私有仓库（quartz-obsidian） ⇒ git actions部署pages ⇒ 公开仓库（chyuhung.</description>
-    <pubDate>Tue, 27 Feb 2024 02:42:47 GMT</pubDate>
+    <pubDate>Tue, 27 Feb 2024 02:47:44 GMT</pubDate>
+  </item><item>
+    <title>未命名</title>
+    <link>https://chyuhung.github.io/%E6%9C%AA%E5%91%BD%E5%90%8D</link>
+    <guid>https://chyuhung.github.io/%E6%9C%AA%E5%91%BD%E5%90%8D</guid>
+    <description></description>
+    <pubDate>Tue, 27 Feb 2024 02:47:44 GMT</pubDate>
   </item>
     </channel>
   </rss>
