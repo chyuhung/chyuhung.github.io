@@ -10,61 +10,61 @@
     <link>https://chyuhung.github.io/</link>
     <guid>https://chyuhung.github.io/</guid>
     <description>数字花园 是我的一种全新的尝试，既然叫做数字花园，那么我希望它应该向阳而肆意生长，摆脱苦恼与烦闷！ 开始浏览我的数字花园tags 搭建数字花园（Quartz）官方文档 Welcome to Quartz 4 (jzhao.xyz) 我的数字花园部署结构 私有仓库（quartz-obsidian） ⇒ git actions部署pages ⇒ 公开仓库（chyuhung.</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>tags</title>
     <link>https://chyuhung.github.io/tags</link>
     <guid>https://chyuhung.github.io/tags</guid>
     <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） 自动化和编程 自动化工具（如 Ansible、Chef、Puppet） 脚本编程和编写自动化脚本 版本控制系统（如 Git、SVN） 云计算和虚拟化 云计算基础概念和服务模型（如 IaaS、PaaS、SaaS） 虚拟化技术（如 VMware、KVM、Docker） 容器编排和管理工具（如 Kubernetes） 应用部署和容灾 Web 服务器和应用服务器的部署和配置（如 Nginx、Apache、Tomcat） 高可用性和容灾技术（如负载均衡、故障转移、备份恢复） 监控和日志管理 监控系统的搭建和配置（如 Zabbix、Prometheus） 日志管理和分析工具（如 ELK Stack、Splunk） 安全和权限管理 系统安全和漏洞管理 访问控制和权限管理（如 LDAP、RBAC） 防火墙和网络安全配置 网络和存储管理 网络设备的配置和管理 存储管理和数据备份策略 数据库管理（如 MySQL、PostgreSQL、MongoDB） 故障排除和性能优化 系统故障排查和调优 性能监测和性能优化技术 容量规划和资源管理 文档和沟通能力 技术文档编写和维护 团队协作和沟通能力 问题解决和故障处理技巧 .</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>k8s</title>
     <link>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/k8s</link>
     <guid>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/k8s</guid>
-    <description></description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <description>基础使用 查看集群所有命名空间 kubectl get ns 设置命名空间变量，方便使用 OP_NAMESPACE=paas-compmgmt OP_NAMESPACE=paas-ucrs kubectl get pods -n ${OP_NAMESPACE} kubectl delete pods -n ${OP_NAMESPACE} kubectl describe pods -n ${OP_NAMESPACE} kubectl logs -n ${OP_NAMESPACE} kubectl logs --tail=200 -n ${OP_NAMESPACE}kubectl get vs -A\r kubectl get vs -n &lt;nsname&gt; &lt;vsname&gt; -oyamlkubectl edit vs -n &lt;nsname&gt; &lt;vsname&gt; kubectl edit service -n ${OP_NAMESPACE}kubectl exec -it -n ${OP_NAMESPACE}查看镜像版本 kubectl set image deploy -n ${OP_NAMESPACE} kubectl get deployment -n ${OP_NAMESPACE}&lt;deployment_name&gt; -o yamlkubectl scale deployment --replicas=1 -n ${OP_NAMESPACE} kubectl edit deployment -n ${OP_NAMESPACE} kubectl delete deployment -n ${OP_NAMESPACE} kubectl create configmap -n ${OP_NAMESPACE}&lt;cmname&gt;--from-file=&lt;filepath&gt;kubectl edit configmap -n ${OP_NAMESPACE} kubectl delete configmap -n ${OP_NAMESPACE}kubectl create -f kubectl apply -fkubectl delete -f kubectl rollout history -n ${OP_NAMESPACE} deployment/ kubectl rollout undo -n ${OP_NAMESPACE} deployment/ --to-revision= .</description>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>openstack</title>
     <link>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/openstack</link>
     <guid>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/openstack</guid>
     <description>openstack集群健康检查 openstack-status.</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>云计算和虚拟化</title>
     <link>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96</link>
     <guid>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96</guid>
     <description> 云计算和虚拟化 云计算基础概念和服务模型（如 IaaS、PaaS、SaaS） 虚拟化技术（如 VMware、KVM、Docker） 容器编排和管理工具（如 Kubernetes） .</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>go</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</guid>
     <description></description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>python基础</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python%E5%9F%BA%E7%A1%80</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python%E5%9F%BA%E7%A1%80</guid>
     <description>初识Python 版本 版本号分为三段，形如A.B.C，版本大更新增加A，新功能增加B，小改动增加C 优缺点 优点 简单，学习曲线低 开放源代码，生态强大 解释型语言移植性强 支持面向对象和函数式编程 代码规范可读性强 缺点 执行效率稍微低 代码无法加密 解释器 官方的Python解释器是用C语言实现的，也是使用最为广泛的Python解释器，通常称之为CPython 应用领域 后端开发、DevOps、爬虫、自动化测试、数据分析、机器学习 运行 单行注释以#开头，多行注释以&#039;&#039;&#039;开头和结尾 # hello world 示例 print(&#039;hello, world!&#039;) 开发工具 安装python 自带集成开发工具IDLE（命令行交互式），实际开发不方便使用，通常使用pycharm或者vscode 语言元素 以python3进行总结 整型 int 0b100 0x100 0o100 浮点型 123.</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>shell</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</guid>
     <description></description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>vue</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</guid>
     <description>安装nodejs 下载地址 Node.js 中文网 (nodejs.com.cn) nodejs安装步骤 Installation · nodejs/help Wiki (github.com) linux安装nodejs参考命令 [root@ctl01 tmp]# tar -xf node-v18.</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item><item>
     <title>基础技能</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</guid>
     <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） .</description>
-    <pubDate>Tue, 12 Mar 2024 06:38:22 GMT</pubDate>
+    <pubDate>Tue, 12 Mar 2024 06:43:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
