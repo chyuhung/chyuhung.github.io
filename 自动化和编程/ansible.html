@@ -109,65 +109,56 @@ PLAY RECAP *********************************************************************
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">db1 </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">ansible_host</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=192.168.1.20</span></span>
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">db2 </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">ansible_host</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">=192.168.1.21</span></span></code></pre></figure>
 <ol start="3">
-<li><strong>使用动态脚本生成inventory</strong>：可以使用动态脚本来生成更灵活的inventory。例如，创建一个名为<code>dynamic_inventory.py</code>的Python脚本，并实现必要的逻辑来动态生成inventory。然后，可以使用以下命令查看生成的inventory：</li>
+<li><strong>使用动态脚本生成inventory</strong>：可以使用动态脚本来生成更灵活的inventory。例如，创建一个名为<code>dynamic_inventory.py</code>的Python脚本，并实现必要的逻辑来动态生成inventory</li>
 </ol>
+<p>查看生成的inventory</p>
 <pre><code>ansible-inventory -i dynamic_inventory.py --list
-    ```
-    
-4. **使用外部数据源生成inventory**：`ansible-inventory`还可以与外部数据源集成，如AWS EC2、OpenStack等。可以使用相关插件来配置和指定数据源。例如，使用EC2插件来动态生成基于AWS EC2实例的inventory：
-    
-    复制
-    
-    ```
-    ansible-inventory -i ec2.yaml --list
-    ```
-## Ansible Galaxy
-
-Ansible Galaxy是一个用于共享和管理Ansible角色的平台。当使用Ansible Galaxy创建或安装角色时，它会生成一种常见的目录结构，以便更好地组织和管理角色
-
-**创建角色**：使用`ansible-galaxy init`命令创建角色，并指定角色的名称，创建一个名为&quot;my_role&quot;的角色
-
 </code></pre>
-<p>ansible-galaxy init my_role</p>
-<pre><code>
-### Ansible Galaxy生成的典型目录结构
-
+<ol start="4">
+<li><strong>使用外部数据源生成inventory</strong>：<code>ansible-inventory</code>还可以与外部数据源集成，如AWS EC2、OpenStack等。可以使用相关插件来配置和指定数据源</li>
+</ol>
+<p>使用EC2插件来动态生成基于AWS EC2实例的inventory</p>
+<pre><code>ansible-inventory -i ec2.yaml --list
 </code></pre>
-<p>role_name/
-├── defaults/
-│   └── main.yml
-├── files/
-│   └── some_file.txt
-├── handlers/
-│   └── main.yml
-├── meta/
-│   └── main.yml
-├── tasks/
-│   └── main.yml
-├── templates/
-│   └── some_template.j2
-├── vars/
-│   └── main.yml
-└── README.md</p>
-<pre><code>
-- `defaults/`：包含角色的默认变量，这些变量会被其他任务和角色使用
-- `files/`：包含角色使用的静态文件，如配置文件或脚本
-- `handlers/`：包含角色的处理程序，用于处理特定的事件或触发器
-- `meta/`：包含角色的元数据，如作者、依赖项和支持的平台
-- `tasks/`：包含角色的主要任务，即要执行的操作
-- `templates/`：包含角色使用的模板文件，这些文件可以根据变量动态生成内容
-- `vars/`：包含角色的变量文件，用于定义角色的变量值
-- `README.md`：角色的说明和文档
-
-### 使用Ansible Galaxy的常见步骤
-
-1. **搜索角色**：使用`ansible-galaxy search`命令搜索Ansible Galaxy上的角色
-
-搜索名为&quot;nginx&quot;的角色
-
-```sh
-ansible-galaxy search nginx
+<h2 id="ansible-galaxy">Ansible Galaxy<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ansible-galaxy" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Ansible Galaxy是一个用于共享和管理Ansible角色的平台。当使用Ansible Galaxy创建或安装角色时，它会生成一种常见的目录结构，以便更好地组织和管理角色</p>
+<p><strong>创建角色</strong>：使用<code>ansible-galaxy init</code>命令创建角色，并指定角色的名称，创建一个名为”my_role”的角色</p>
+<pre><code>ansible-galaxy init my_role
 </code></pre>
+<h3 id="ansible-galaxy生成的典型目录结构">Ansible Galaxy生成的典型目录结构<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ansible-galaxy生成的典型目录结构" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>role_name/
+  ├── defaults/
+  │   └── main.yml
+  ├── files/
+  │   └── some_file.txt
+  ├── handlers/
+  │   └── main.yml
+  ├── meta/
+  │   └── main.yml
+  ├── tasks/
+  │   └── main.yml
+  ├── templates/
+  │   └── some_template.j2
+  ├── vars/
+  │   └── main.yml
+  └── README.md
+</code></pre>
+<ul>
+<li><code>defaults/</code>：包含角色的默认变量，这些变量会被其他任务和角色使用</li>
+<li><code>files/</code>：包含角色使用的静态文件，如配置文件或脚本</li>
+<li><code>handlers/</code>：包含角色的处理程序，用于处理特定的事件或触发器</li>
+<li><code>meta/</code>：包含角色的元数据，如作者、依赖项和支持的平台</li>
+<li><code>tasks/</code>：包含角色的主要任务，即要执行的操作</li>
+<li><code>templates/</code>：包含角色使用的模板文件，这些文件可以根据变量动态生成内容</li>
+<li><code>vars/</code>：包含角色的变量文件，用于定义角色的变量值</li>
+<li><code>README.md</code>：角色的说明和文档</li>
+</ul>
+<h3 id="使用ansible-galaxy的常见步骤">使用Ansible Galaxy的常见步骤<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#使用ansible-galaxy的常见步骤" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>搜索角色</strong>：使用<code>ansible-galaxy search</code>命令搜索Ansible Galaxy上的角色</li>
+</ol>
+<p>搜索名为”nginx”的角色</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="sh" data-theme="github-light github-dark"><code data-language="sh" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ansible-galaxy</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> search nginx</span></span></code></pre></figure>
 <ol start="2">
 <li><strong>查看角色详情</strong>：使用<code>ansible-galaxy info</code>命令查看角色的详细信息</li>
 </ol>
@@ -457,7 +448,7 @@ ansible-galaxy search nginx
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc" class><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#简介" data-for="简介">简介</a></li><li class="depth-0"><a href="#特性" data-for="特性">特性</a></li><li class="depth-0"><a href="#关键参数" data-for="关键参数">关键参数</a></li><li class="depth-0"><a href="#开始" data-for="开始">开始</a></li><li class="depth-0"><a href="#ad-hoc-command" data-for="ad-hoc-command">Ad-Hoc command</a></li><li class="depth-0"><a href="#playbook" data-for="playbook">Playbook</a></li><li class="depth-0"><a href="#playtask与module" data-for="playtask与module">Play、Task与Module</a></li><li class="depth-0"><a href="#ansible-inventory" data-for="ansible-inventory">Ansible inventory</a></li><li class="depth-0"><a href="#常用的-ansible-module" data-for="常用的-ansible-module">常用的 Ansible Module</a></li><li class="depth-1"><a href="#command" data-for="command">command</a></li><li class="depth-1"><a href="#shell" data-for="shell">shell</a></li><li class="depth-1"><a href="#copy" data-for="copy">copy</a></li><li class="depth-1"><a href="#fetch" data-for="fetch">fetch</a></li><li class="depth-1"><a href="#file" data-for="file">file</a></li><li class="depth-1"><a href="#lineinfile" data-for="lineinfile">lineinfile</a></li><li class="depth-1"><a href="#service" data-for="service">service</a></li><li class="depth-1"><a href="#lvm" data-for="lvm">lvm</a></li><li class="depth-1"><a href="#apt" data-for="apt">apt</a></li><li class="depth-1"><a href="#yum" data-for="yum">yum</a></li><li class="depth-1"><a href="#pip" data-for="pip">pip</a></li><li class="depth-1"><a href="#git" data-for="git">git</a></li><li class="depth-1"><a href="#user" data-for="user">user</a></li><li class="depth-1"><a href="#cron" data-for="cron">cron</a></li><li class="depth-1"><a href="#debug" data-for="debug">debug</a></li><li class="depth-1"><a href="#template" data-for="template">template</a></li><li class="depth-1"><a href="#docker_" data-for="docker_">docker_*</a></li></ul></div></div><div class="backlinks"><h3>反向链接</h3><ul class="overflow"><li>无法找到反向链接</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.2.2</a> © 2024</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc" class><h3>目录</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#简介" data-for="简介">简介</a></li><li class="depth-0"><a href="#特性" data-for="特性">特性</a></li><li class="depth-0"><a href="#关键参数" data-for="关键参数">关键参数</a></li><li class="depth-0"><a href="#开始" data-for="开始">开始</a></li><li class="depth-0"><a href="#ad-hoc-command" data-for="ad-hoc-command">Ad-Hoc command</a></li><li class="depth-0"><a href="#playbook" data-for="playbook">Playbook</a></li><li class="depth-0"><a href="#playtask与module" data-for="playtask与module">Play、Task与Module</a></li><li class="depth-0"><a href="#ansible-inventory" data-for="ansible-inventory">Ansible inventory</a></li><li class="depth-0"><a href="#ansible-galaxy" data-for="ansible-galaxy">Ansible Galaxy</a></li><li class="depth-1"><a href="#ansible-galaxy生成的典型目录结构" data-for="ansible-galaxy生成的典型目录结构">Ansible Galaxy生成的典型目录结构</a></li><li class="depth-1"><a href="#使用ansible-galaxy的常见步骤" data-for="使用ansible-galaxy的常见步骤">使用Ansible Galaxy的常见步骤</a></li><li class="depth-0"><a href="#常用的-ansible-module" data-for="常用的-ansible-module">常用的 Ansible Module</a></li><li class="depth-1"><a href="#command" data-for="command">command</a></li><li class="depth-1"><a href="#shell" data-for="shell">shell</a></li><li class="depth-1"><a href="#copy" data-for="copy">copy</a></li><li class="depth-1"><a href="#fetch" data-for="fetch">fetch</a></li><li class="depth-1"><a href="#file" data-for="file">file</a></li><li class="depth-1"><a href="#lineinfile" data-for="lineinfile">lineinfile</a></li><li class="depth-1"><a href="#service" data-for="service">service</a></li><li class="depth-1"><a href="#lvm" data-for="lvm">lvm</a></li><li class="depth-1"><a href="#apt" data-for="apt">apt</a></li><li class="depth-1"><a href="#yum" data-for="yum">yum</a></li><li class="depth-1"><a href="#pip" data-for="pip">pip</a></li><li class="depth-1"><a href="#git" data-for="git">git</a></li><li class="depth-1"><a href="#user" data-for="user">user</a></li><li class="depth-1"><a href="#cron" data-for="cron">cron</a></li><li class="depth-1"><a href="#debug" data-for="debug">debug</a></li><li class="depth-1"><a href="#template" data-for="template">template</a></li><li class="depth-1"><a href="#docker_" data-for="docker_">docker_*</a></li></ul></div></div><div class="backlinks"><h3>反向链接</h3><ul class="overflow"><li>无法找到反向链接</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.2.2</a> © 2024</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">function c(){let t=this.parentElement;t.classList.toggle("is-collapsed");let l=t.classList.contains("is-collapsed")?this.scrollHeight:t.scrollHeight;t.style.maxHeight=l+"px";let o=t,e=t.parentElement;for(;e;){if(!e.classList.contains("callout"))return;let n=e.classList.contains("is-collapsed")?e.scrollHeight:e.scrollHeight+o.scrollHeight;e.style.maxHeight=n+"px",o=e,e=e.parentElement}}function i(){let t=document.getElementsByClassName("callout is-collapsible");for(let s of t){let l=s.firstElementChild;if(l){l.addEventListener("click",c),window.addCleanup(()=>l.removeEventListener("click",c));let e=s.classList.contains("is-collapsed")?l.scrollHeight:s.scrollHeight;s.style.maxHeight=e+"px"}}}document.addEventListener("nav",i);window.addEventListener("resize",i);
 </script><script type="module">
           let mermaidImport = undefined
           document.addEventListener('nav', async () => {
