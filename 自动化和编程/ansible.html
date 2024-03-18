@@ -93,6 +93,9 @@ PLAY RECAP *********************************************************************
 </ul>
 <h2 id="ansible-galaxy">Ansible Galaxy<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ansible-galaxy" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>Ansible Galaxy是一个用于共享和管理Ansible角色的平台。当使用Ansible Galaxy创建或安装角色时，它会生成一种常见的目录结构，以便更好地组织和管理角色</p>
+<p><strong>创建角色</strong>：使用<code>ansible-galaxy init</code>命令创建角色，并指定角色的名称，创建一个名为”my_role”的角色</p>
+<pre><code>ansible-galaxy init my_role
+</code></pre>
 <h3 id="ansible-galaxy生成的典型目录结构">Ansible Galaxy生成的典型目录结构<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ansible-galaxy生成的典型目录结构" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <pre><code>role_name/
   ├── defaults/
@@ -123,35 +126,33 @@ PLAY RECAP *********************************************************************
 </ul>
 <h3 id="使用ansible-galaxy的常见步骤">使用Ansible Galaxy的常见步骤<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#使用ansible-galaxy的常见步骤" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <ol>
-<li><strong>搜索角色</strong>：使用<code>ansible-galaxy search</code>命令搜索Ansible Galaxy上的角色。例如，要搜索名为”nginx”的角色，可以运行以下命令：</li>
+<li><strong>搜索角色</strong>：使用<code>ansible-galaxy search</code>命令搜索Ansible Galaxy上的角色</li>
 </ol>
-<pre><code>ansible-galaxy search nginx
-</code></pre>
+<p>搜索名为”nginx”的角色</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="sh" data-theme="github-light github-dark"><code data-language="sh" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ansible-galaxy</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> search nginx</span></span></code></pre></figure>
 <ol start="2">
-<li><strong>查看角色详情</strong>：使用<code>ansible-galaxy info</code>命令查看角色的详细信息。例如，要查看名为”nginx”的角色的详细信息，可以运行以下命令：</li>
+<li><strong>查看角色详情</strong>：使用<code>ansible-galaxy info</code>命令查看角色的详细信息</li>
 </ol>
-<pre><code>ansible-galaxy info nginx
-</code></pre>
+<p>查看名为”nginx”的角色的详细信息</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="sh" data-theme="github-light github-dark"><code data-language="sh" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ansible-galaxy</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> info nginx</span></span></code></pre></figure>
 <ol start="3">
-<li><strong>安装角色</strong>：使用<code>ansible-galaxy install</code>命令安装角色。可以通过指定角色名称和可选的版本号来安装角色。例如，要安装名为”nginx”的最新版本角色，可以运行以下命令：</li>
+<li><strong>安装角色</strong>：使用<code>ansible-galaxy install</code>命令安装角色。可以通过指定角色名称和可选的版本号来安装角色</li>
 </ol>
-<pre><code>ansible-galaxy install nginx
-</code></pre>
-<p>如果要安装特定版本的角色，可以使用以下命令：</p>
-<pre><code>ansible-galaxy install nginx,1.0.0
-</code></pre>
+<p>安装名为”nginx”的最新版本角色</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="sh" data-theme="github-light github-dark"><code data-language="sh" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ansible-galaxy</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> install nginx</span></span></code></pre></figure>
+<p>安装特定版本的角色</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="sh" data-theme="github-light github-dark"><code data-language="sh" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">ansible-galaxy</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> install nginx,1.0.0</span></span></code></pre></figure>
 <ol start="4">
-<li><strong>使用角色</strong>：一旦安装了角色，你可以在自己的Ansible playbook中使用它。在playbook中，使用<code>roles</code>关键字来指定要使用的角色。例如：</li>
+<li><strong>使用角色</strong>：一旦安装了角色，你可以在自己的Ansible playbook中使用它。在playbook中，使用<code>roles</code>关键字来指定要使用的角色</li>
 </ol>
-<pre><code>---
-- name: My Playbook
-  hosts: all
-  roles:
-      - nginx
-</code></pre>
-<pre><code>在上述示例中，我们使用了名为&quot;nginx&quot;的角色。
-</code></pre>
-<p>5. <strong>管理角色</strong>：使用<code>ansible-galaxy</code>命令来管理已安装的角色。例如，你可以使用<code>ansible-galaxy list</code>命令列出已安装的角色，使用<code>ansible-galaxy remove</code>命令卸载角色，使用<code>ansible-galaxy update</code>命令更新角色等。</p>
+<figure data-rehype-pretty-code-figure><pre style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" data-language="yaml" data-theme="github-light github-dark"><code data-language="yaml" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">---</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">- </span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">name</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">My Playbook</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">  hosts</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">all</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">  roles</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">:</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">      - </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">nginx</span></span></code></pre></figure>
+<ol start="5">
+<li><strong>管理角色</strong>：使用<code>ansible-galaxy</code>命令来管理已安装的角色，可以使用<code>ansible-galaxy list</code>命令列出已安装的角色，使用<code>ansible-galaxy remove</code>命令卸载角色，使用<code>ansible-galaxy update</code>命令更新角色等</li>
+</ol>
 <h2 id="常用的-ansible-module">常用的 Ansible Module<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#常用的-ansible-module" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <h3 id="command">command<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#command" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p><code>command</code>模块是个可以在远端上执行指令的指令模组（Commands Modules），但它不支持变数（变量）和  <code>&lt;</code> ，  <code>></code>，  <code>|</code>，  <code>;</code>  和  <code>&amp;</code> 等运算，若有这类请需求改用<code>shell</code>模块</p>
