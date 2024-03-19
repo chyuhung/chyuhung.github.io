@@ -42,16 +42,13 @@
 <li>IO路径硬件问题，如硬盘损坏（少数情况会导致长期D，通常会返回错误）</li>
 <li>内核问题</li>
 </ol>
-<p>这种问题不好定位，而且一旦出现就通常不可恢复，kill不掉，通常只能重启恢复了。
-内核针对此种情况开发了一种hung task的检测机制，基本原理是：定时检测系统中处于D状态的进程，如果其处于D状态的时间超过了指定时间(默认120s，可以配置)，则打印相关堆栈信息，也可以通过proc参数配置使其直接panic。</p>
-<p>如何修改或者取消120秒的时间限值呢。120秒的时间限值由内存参数kernel.hung_task_timeout_secs决定的。直接像方案一那样修改此内核参数的值就可。如果kernel.hung_task_timeout_secs的值设置为0，那就是把此种设置为长整型的最大值。</p>
-<p>下面说一下修改调度器的流程。</p>
-<p>（1）查看当前hung_task_timeout_secs值。</p>
-<p>在命令行中输入如下指令：</p>
-<p>sysctl -a | grep hung_task_timeout_secs
-1</p>
-<p>有内核返回信息，可知当前设置的hung_task超时时间为120秒。</p>
-<p>（2）修改hung_task_timeout_secs值。</p>
+<p><em>这种问题不好定位，而且一旦出现通常不可恢复，kill不掉，通常只能重启恢复了</em>
+<em>内核针对此种情况开发了一种hung task的检测机制，基本原理是：定时检测系统中处于D状态的进程，如果其处于D状态的时间超过了指定时间(默认120s，可配置)，则打印相关堆栈信息，也可以通过proc参数配置使其直接panic</em></p>
+<p>120秒的时间限值由内存参数kernel.hung_task_timeout_secs决定的，如果kernel.hung_task_timeout_secs的值设置为0，那就是把此种设置为长整型的最大值</p>
+<p>查看当前hung_task_timeout_secs值</p>
+<pre><code>sysctl -a | grep hung_task_timeout_secs
+</code></pre>
+<p>修改hung_task_timeout_secs值</p>
 <p>把hung_task_timeout_secs的值修改为0，在命令行中输入如下指令：</p>
 <p>./sbin/sysctl -w kernel.hung_task_timeout_secs=0
 1
