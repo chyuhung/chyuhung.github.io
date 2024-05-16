@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on 🪴 十二万光年</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>shell</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</guid>
+    <title>mysql</title>
+    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/mysql</link>
+    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/mysql</guid>
+    <description>数据库断电无法重启 报错内容 [root@ctl01 ~]# more /var/log/mariadb/mariadb.log 2024-03-13 11:23:59 0 [Note] InnoDB: Using Linux native AIO 2024-03-13 11:23:59 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins 2024-03-13 11:23:59 0 [Note] InnoDB: Uses event mutexes 2024-03-13 11:23:59 0 [Note] InnoDB: Compressed tables use zlib 1.</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>故障排除和性能优化</title>
+    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</link>
+    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</guid>
+    <description> 故障排除和性能优化 系统故障排查和调优 性能监测和性能优化技术 容量规划和资源管理 .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>鸿蒙OS系统优化</title>
+    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E9%B8%BF%E8%92%99OS%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96</link>
+    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E9%B8%BF%E8%92%99OS%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96</guid>
+    <description>使用ADB工具，将手机开启调试模式，卸载或禁用系统应用和组件，提升手机运行效率 执行前注意：请务必关闭系统“纯净模式” 前置条件 1、进入设置 → 关于手机，连击 5 次版本号，打开开发者模式 2、进入设置 → 系统和更新 → 开发人员选项，勾选USB 调试和“仅充电”模式下允许 ADB 调试 3、连接手机，选择仅充电，弹出提示框后，勾选允许该电脑通过 USB 调试设备并点击允许按钮 4、打开设置 → 系统和更新 → 纯净模式，选择“退出”并确认，进而关闭“纯净模式”，否则之后会无法安装软件 预置应用 .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>文档和沟通能力</title>
+    <link>https://chyuhung.github.io/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B</link>
+    <guid>https://chyuhung.github.io/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B</guid>
+    <description> 文档和沟通能力 技术文档编写和维护 团队协作和沟通能力 问题解决和故障处理技巧 .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>监控和日志管理</title>
+    <link>https://chyuhung.github.io/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86</link>
+    <guid>https://chyuhung.github.io/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86</guid>
+    <description> 监控和日志管理 监控系统的搭建和配置（如 Zabbix、Prometheus） 日志管理和分析工具（如 ELK Stack、Splunk） .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>ceph</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</guid>
+    <description>查看osd ceph osd tree .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>keepalived</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</guid>
+    <description>Keepalived是一个用于实现高可用性和负载均衡的软件，常用于配置主备服务器或虚拟 IP 地址的故障切换 常规配置 global_defs global_defs包含全局定义的配置项 router_id：定义 Keepalived 实例的唯一标识符 notification_email：定义在故障切换或状态变化时接收通知的电子邮件地址 notification_email_from：定义发送通知的电子邮件地址 smtp_server：指定用于发送电子邮件通知的 SMTP 服务器的地址 smtp_connect_timeout：定义连接到 SMTP 服务器的超时时间 router_id 和 notification_email 是全局定义的必需配置项，而其他配置项是可选的，根据需要进行配置 vrrp_instance vrrp_instance定义一个 VRRP（Virtual Router Redundancy Protocol）实例，用于配置主备服务器或虚拟 IP 地址的故障切换 state：指定服务器的状态，可以是 MASTER、BACKUP 或 FAULT interface：指定用于 VRRP 实例的网络接口 virtual_router_id：定义 VRRP 路由器的唯一标识符 priority：指定服务器的优先级，用于选举 MASTER 服务器 advert_int：定义 VRRP 广告间隔，即发送 VRRP 通告的时间间隔 authentication：指定 VRRP 通信的认证密码 virtual_ipaddress：定义虚拟 IP 地址，当服务器处于 MASTER 状态时，该地址将被分配给服务器 virtual_server virtual_server用于配置负载均衡的虚拟服务器 delay_loop：定义检查服务器健康状态的时间间隔 lb_algo：定义负载均衡算法，例如 rr（轮询）或 wrr（加权轮询） lb_kind：定义负载均衡类型，例如 NAT（网络地址转换）或 DR（直接路由） real_server：定义真实服务器的 IP 地址和端口 配置示例 配置主服务器（MASTER）和备份服务器（BACKUP）的 Keepalived 实例，当主服务器无法正常工作时，备份服务器将接管虚拟 IP 地址并成为活动服务器 Master（主服务器）配置文件 ! 全局定义 global_defs { router_id keepalived_example } ! VRRP 实例 - 主服务器 vrrp_instance VI_1 { state MASTER interface ens3 virtual_router_id 51 priority 100 advert_int 1 authentication { auth_type PASS auth_pass example_password } virtual_ipaddress { 10.</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
+  </item><item>
+    <title>mysql</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</guid>
     <description></description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
   </item><item>
-    <title>vue</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</guid>
-    <description>安装nodejs 下载地址 Node.js 中文网 (nodejs.com.cn) nodejs安装步骤 Installation · nodejs/help Wiki (github.com) linux安装nodejs参考命令 [root@ctl01 tmp]# tar -xf node-v18.</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
+    <title>pgsql</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</guid>
+    <description></description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
   </item><item>
-    <title>基础技能</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</guid>
-    <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） .</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>服务器raid配置</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</guid>
-    <description>Raid配置工具 MegaCli 基本知识 $ MegaCli -PDList -aALL Adapter #0 #阵列卡号,适配器编号 Enclosure Device ID: 32 #raid卡的ID号 Slot Number: 0 #物理磁盘的slot号,磁盘位置 StorCli 基本知识 c：Controller，控制器，也就是阵列卡 e：Enclosure，附件，一般来讲也就是硬盘背板“硬盘笼” s：Slot，物理硬盘槽位 v：Virtual Drive，虚拟硬盘，也就是逻辑卷 d：Disk Group，硬盘组 f：Foreign configuration file，外部阵列配置 常用命令 命令查看 RAID 控制器信息 storcli /c0 show raid6配置示例，将slot0-9配置为raid6 .</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>ssh免密登录</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95</guid>
-    <description>示例 A为本地主机，BC为远程服务器 使用ssh-keygen生成密钥对 ssh-keygen 拷贝生成的公钥到远程服务器BC，即可在本地主机免密登录远程服务器BC ssh-copy-id -i ~/.ssh/xxx.pub user@server 示例 [root@ctl01 ~]# ssh-copy-id -i .</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>公钥与私钥</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E5%85%AC%E9%92%A5%E4%B8%8E%E7%A7%81%E9%92%A5</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E5%85%AC%E9%92%A5%E4%B8%8E%E7%A7%81%E9%92%A5</guid>
-    <description>散列算法 散列算法，也叫做哈希函数，有时候也叫做摘要算法，常用的算法有：MD5 SHA1 MD5 MD5 不是一种加密算法，是一种摘要算法，无论多长的输入，MD5 都会输出长度为 128bits 的一个串 SHA1 SHA1 算法也是一个摘要算法， SHA1 比 MD5 更加安全，对于长度小于 2^64 位的消息，SHA1 会产生一个 160 位的消息摘要 摘要算法有摘要特性和不可逆特性，一般用于检查文件的完整性和数据签名的场景 加密算法 对称加密 加、解密使用的是同一串秘钥，只有一个秘钥作为私钥 常用算法：DES、3DES、Blowfish、IDEA、RC4、RC5、RC6和AES 非对称加密 加、解密使用不同秘钥，通常一对私钥与公钥，公钥加密，私钥解密，亦可私钥加密公钥解密），通常加密指代前者，后者叫做“签名” 常用算法：RSA、ECC（移动设备用）、Diffie-Hellman、El Gamal、DSA（数字签名用） ssh免密登录 编码算法 Base64 编码算法，将任意二进制编码成文本.</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>安全和权限管理</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86</guid>
-    <description> 安全和权限管理 系统安全和漏洞管理 访问控制和权限管理（如 LDAP、RBAC） 防火墙和网络安全配置 .</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>应用部署和容灾</title>
-    <link>https://chyuhung.github.io/%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%AE%B9%E7%81%BE/%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%AE%B9%E7%81%BE</link>
-    <guid>https://chyuhung.github.io/%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%AE%B9%E7%81%BE/%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%92%8C%E5%AE%B9%E7%81%BE</guid>
-    <description> 应用部署和容灾 Web 服务器和应用服务器的部署和配置（如 Nginx、Apache、Tomcat） 高可用性和容灾技术（如负载均衡、故障转移、备份恢复） .</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>NTP服务配置</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/NTP%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/NTP%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE</guid>
-    <description>Network Time Protocol（网络时间协议，NTP）是一种用于在计算机网络中同步时钟的协议。它通过分布式的时间参考源，确保计算设备具有准确和一致的时间。 安装 在Linux主机上安装NTP服务。不同的Linux发行版可能有不同的安装方法，但通常可以使用包管理器来安装NTP软件包，例如apt、yum或zypper。 配置 在/etc/ntp.</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
-  </item><item>
-    <title>linux 出错 task xxxxx 634 blocked for more than 120 seconds</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/linux-%E5%87%BA%E9%94%99-task-xxxxx-634-blocked-for-more-than-120-seconds</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/linux-%E5%87%BA%E9%94%99-task-xxxxx-634-blocked-for-more-than-120-seconds</guid>
-    <description>问题现象 系统挂起，无法响应 SSH无响应，但可以ping通 报错关键信息包含 hung_task_timeout_secs 原因分析 linux kernel bug相关资料显示 By default Linux uses up to 40% of the available memory for file system caching.</description>
-    <pubDate>Wed, 15 May 2024 10:19:24 GMT</pubDate>
+    <title>网络和存储管理</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</guid>
+    <description> 网络和存储管理 网络设备的配置和管理 存储管理和数据备份策略 数据库管理（如 MySQL、PostgreSQL、MongoDB） .</description>
+    <pubDate>Thu, 16 May 2024 06:49:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
