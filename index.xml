@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on 🪴 十二万光年</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>keepalived</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</guid>
+    <description>Keepalived是一个用于实现高可用性和负载均衡的软件，常用于配置主备服务器或虚拟 IP 地址的故障切换 常规配置 global_defs global_defs包含全局定义的配置项 router_id：定义 Keepalived 实例的唯一标识符 notification_email：定义在故障切换或状态变化时接收通知的电子邮件地址 notification_email_from：定义发送通知的电子邮件地址 smtp_server：指定用于发送电子邮件通知的 SMTP 服务器的地址 smtp_connect_timeout：定义连接到 SMTP 服务器的超时时间 router_id 和 notification_email 是全局定义的必需配置项，而其他配置项是可选的，根据需要进行配置 vrrp_instance vrrp_instance定义一个 VRRP（Virtual Router Redundancy Protocol）实例，用于配置主备服务器或虚拟 IP 地址的故障切换 state：指定服务器的状态，可以是 MASTER、BACKUP 或 FAULT interface：指定用于 VRRP 实例的网络接口 virtual_router_id：定义 VRRP 路由器的唯一标识符 priority：指定服务器的优先级，用于选举 MASTER 服务器 advert_int：定义 VRRP 广告间隔，即发送 VRRP 通告的时间间隔 authentication：指定 VRRP 通信的认证密码 virtual_ipaddress：定义虚拟 IP 地址，当服务器处于 MASTER 状态时，该地址将被分配给服务器 virtual_server virtual_server用于配置负载均衡的虚拟服务器 delay_loop：定义检查服务器健康状态的时间间隔 lb_algo：定义负载均衡算法，例如 rr（轮询）或 wrr（加权轮询） lb_kind：定义负载均衡类型，例如 NAT（网络地址转换）或 DR（直接路由） real_server：定义真实服务器的 IP 地址和端口 配置示例 配置主服务器（MASTER）和备份服务器（BACKUP）的 Keepalived 实例，当主服务器无法正常工作时，备份服务器将接管虚拟 IP 地址并成为活动服务器 Master（主服务器）配置文件 ! 全局定义 global_defs { router_id keepalived_example } ! VRRP 实例 - 主服务器 vrrp_instance VI_1 { state MASTER interface ens3 virtual_router_id 51 priority 100 advert_int 1 authentication { auth_type PASS auth_pass example_password } virtual_ipaddress { 10.</description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
+    <title>mysql</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</guid>
+    <description></description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
+    <title>pgsql</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</guid>
+    <description></description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
+    <title>网络和存储管理</title>
+    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</link>
+    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</guid>
+    <description> 网络和存储管理 网络设备的配置和管理 存储管理和数据备份策略 数据库管理（如 MySQL、PostgreSQL、MongoDB） .</description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
+    <title>jinja2</title>
+    <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/Jinja2</link>
+    <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/Jinja2</guid>
+    <description>特点 语法简洁：Jinja2使用简洁而易读的语法，使用大括号{{ }}表示变量插值，使用{% %}表示控制流语句（如条件和循环），以及使用{# #}表示注释 变量插值：Jinja2允许在模板中插入变量的值。可以将变量直接插入到模板中，或者使用过滤器对变量进行处理和格式化 控制流语句：Jinja2支持条件语句（如if、else、elif）和循环语句（如for、while）。这些语句允许根据条件或迭代集合来控制模板的输出 模板继承：Jinja2支持模板继承，可以定义一个基础模板（父模板），然后在派生模板（子模板）中根据需要重写和扩展父模板的内容 过滤器和函数：Jinja2提供了多个内置过滤器和函数，用于对变量进行处理和转换。可以使用这些过滤器和函数对变量进行格式化、截取、排序等操作 宏（Macro）：宏是一种用于定义可重用代码块的机制。可以使用宏来定义一段代码，并在模板的其他地方多次调用该代码块 自定义扩展：Jinja2允许开发者自定义扩展，以增加额外的功能和语法。可以编写自定义过滤器、函数、测试等，以满足特定的需求 .</description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
+    <title>ansible</title>
+    <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/ansible</link>
+    <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/ansible</guid>
+    <description>简介 基于Python开源的自动化工具，用于配置管理、部署、编排和远程执行任务，它使用SSH协议进行通信，由Paramiko（Python库）、 PyYAML和Jinja2 ( 模板化 ) 三个关键模块实现，并使用基于YAML的描述文件来定义任务和配置 特性 模块化 无客户端 主从模式 幂等性 关键参数 主机清单（Inventory）：主机清单是一个YAML或INI格式的文件，用于定义受管理的主机和主机组，它指定了Ansible将在哪些主机上执行任务 模块（Module）：模块是Ansible的基本执行单元，用于在目标主机上执行特定的任务，Ansible提供了丰富的模块库，包括文件操作、软件包管理、用户管理等各种功能 Playbook（剧本）：Playbook是一个YAML格式的文件，用于定义一系列任务和配置的顺序，它描述了Ansible在目标主机上执行的操作流程，包括主机选择、任务执行和变量设置等 角色（Role）：角色是一种组织和复用任务和配置的方法，它将相关的任务、变量和文件组织在一起，以便在多个Playbook中重复使用 变量（Variable）：变量用于存储和传递数据，在Playbook中可以使用变量来实现灵活的配置，变量可以在主机清单、Playbook和角色中定义，并可以通过模板或命令行参数进行动态设置 Handlers：Handlers是一种特殊的任务，它用于响应其他任务的状态变化，当某个任务发生变化时，Handlers可以触发相应的操作，如重新启动服务、重新加载配置等 模板（Template）：模板是一种用于生成配置文件的机制，Ansible使用jinja2模板引擎，可以在模板中使用变量和条件语句来动态生成配置文件 Vault：Vault用于安全地存储敏感信息，如密码和密钥，它可以加密和解密Ansible的变量文件，以防止敏感信息泄露 开始 [root@localhost ~]# ansible localhost -m command -a &#039;echo hello world!&#039; localhost | CHANGED | rc=0 &gt;&gt; hello world! Ad-Hoc command 简短地指令，指令操作模式 [root@localhost ansible]# ansible local -m ping 10.</description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
+  </item><item>
     <title>git</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</guid>
     <description>删除本地分支并同步远程 要删除本地分支并同步到远程仓库：首先删除本地分支，然后删除远程分支 1. 删除本地分支 可以使用 git branch 命令来列出所有分支，然后使用 git branch -d &lt;branch_name&gt; 或 git branch -D &lt;branch_name&gt; 来删除本地分支。 -d 选项用于删除已经合并到当前分支的分支。 -D 选项用于强制删除尚未合并的分支（请注意大写 “D”）。 例如，要删除名为 feature-branch 的本地分支，可以执行： git branch -d feature-branch 或者，如果该分支尚未合并，则使用： git branch -D feature-branch 2.</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
   </item><item>
     <title>github actions</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</guid>
     <description></description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
   </item><item>
     <title>自动化和编程</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</guid>
     <description> 自动化和编程 自动化工具（如 Ansible、Chef、Puppet） 脚本编程和编写自动化脚本 版本控制系统（如 Git、SVN） .</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
   </item><item>
-    <title>go</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</guid>
-    <description>跨平台代码 典型“动态语言思维”的错误 if runtime.GOOS == &quot;windows&quot; { return nil } .</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>python</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</guid>
-    <description>初识Python 版本 版本号分为三段，形如A.B.C，版本大更新增加A，新功能增加B，小改动增加C 优缺点 优点 简单，学习曲线低 开放源代码，生态强大 解释型语言移植性强 支持面向对象和函数式编程 代码规范可读性强 缺点 执行效率稍微低 代码无法加密 解释器 官方的Python解释器是用C语言实现的，也是使用最为广泛的Python解释器，通常称之为CPython 应用领域 后端开发、DevOps、爬虫、自动化测试、数据分析、机器学习 运行 单行注释以#开头，多行注释以&#039;&#039;&#039;开头和结尾 # hello world 示例 print(&#039;hello, world!&#039;) 开发工具 安装python 自带集成开发工具IDLE（命令行交互式），实际开发不方便使用，通常使用pycharm或者vscode 语言元素 以python3进行总结 整型 int 0b100 0x100 0o100 浮点型 123.</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>shell</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</guid>
-    <description>下载命令 curl curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent -o - &quot;$url&quot; --fail：如果请求失败（例如HTTP状态码不是2xx），curl会返回非零退出码。 --retry 0：设置最大重试次数为0次。如果下载失败，curl 不会进行重试。 --connect-timeout 1：设置连接超时时间为1秒。如果连接超过1秒仍未建立，curl 将退出并认为连接失败。 --max-time 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl 将退出并认为下载失败。 --retry-delay 1：设置重试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 --remote-time：将远程文件的时间戳设置为本地文件的时间戳。这样可以确保只下载更新的文件。 --silent：静默模式，禁止显示进度和其他信息。 -o -：将远程文件保存到标准输出（stdout），而不是保存到文件中。 短命令 curl -f -s -m 3 -z &quot;$local_file&quot; -o &quot;$output_file&quot; &quot;$url&quot; -f：如果请求失败（例如HTTP状态码不是2xx），则curl会返回非零退出码。 -s：静默模式，禁止显示进度和其他信息。 -m 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl将退出并认为下载失败。 -z &quot;$url&quot;：指定一个时间戳，表示只下载比该时间戳更新的文件。 -o output_file：将下载的内容保存到指定的文件中。 时间戳 curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot; -O &quot;${url}&quot; --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot;：仅当远程文件的时间戳更新或本地文件不存在时，才下载文件。$(echo &quot;${url}&quot; | xargs basename) 提取URL中的文件名作为本地文件的名称。 wget wget -t 1 -T 1 -w 1 -q -O - &quot;$url&quot; -t 1：设置最大尝试次数为1次。如果下载失败，wget 不会进行重试。 -T 1：设置超时时间为1秒。如果下载超过1秒仍未完成，wget 将退出并认为下载失败。 -w 1：设置每个尝试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 -q：静默模式，不显示下载进度和其他信息。 -O -：将下载的内容写入标准输出（stdout）而不是保存到文件中。 .</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>vue</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</guid>
-    <description>安装nodejs 下载地址 Node.js 中文网 (nodejs.com.cn) nodejs安装步骤 Installation · nodejs/help Wiki (github.com) linux安装nodejs参考命令 [root@ctl01 tmp]# tar -xf node-v18.</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>基础技能</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</guid>
-    <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） .</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>服务器raid配置</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</guid>
-    <description>磁盘状态描述 UGood（Unconfigured Good，未配置正常）：硬盘状态正常，但还未划分给任何逻辑卷 UBad（Unconfigured Bad，未配置异常）：UGood状态的硬盘出现无法恢复的错误 Onln（Online，在线）：已经设置为某个虚拟硬盘的成员盘，并且处于在线正常可用状态 Offln（Offline，离线）：某个虚拟硬盘的成员盘离线 Missing：Online状态的硬盘脱离RAID组的状态 Rbld（Rebuild，重建）：硬盘正在重建数据 Raid配置工具 MegaCli 基本知识 $ MegaCli -PDList -aALL Adapter #0 #阵列卡号,适配器编号 Enclosure Device ID: 32 #raid卡的ID号 Slot Number: 0 #物理磁盘的slot号,磁盘位置 StorCli 基本知识 c：Controller，控制器，也就是阵列卡 e：Enclosure，附件，一般来讲也就是硬盘背板“硬盘笼” s：Slot，物理硬盘槽位 v：Virtual Drive，虚拟硬盘，也就是逻辑卷 d：Disk Group，硬盘组 f：Foreign configuration file，外部阵列配置 常用命令 命令查看 RAID 控制器信息 storcli /c0 show raid6配置示例，将slot0-9配置为raid6 .</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
-  </item><item>
-    <title>iptables</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</guid>
-    <description>iptables添加规则 添加 iptables 规则： iptables -A INPUT -p tcp --dport 8001 -j ACCEPT 这个命令将允许 TCP 8001 端口的入站连接。 执行以下命令以保存当前的 iptables 规则并应用规则： iptables-save &gt; /etc/sysconfig/iptables 这个命令将会把当前的 iptables 规则保存到 /etc/sysconfig/iptables 文件中，并应用规则。 设置开机自启： 执行以下命令以将 iptables 设置为开机自启： echo &quot;/sbin/iptables-restore &lt; /etc/sysconfig/iptables&quot; &gt;&gt; /etc/init.</description>
-    <pubDate>Thu, 30 May 2024 01:30:17 GMT</pubDate>
+    <title>openstack</title>
+    <link>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/openstack</link>
+    <guid>https://chyuhung.github.io/%E4%BA%91%E8%AE%A1%E7%AE%97%E5%92%8C%E8%99%9A%E6%8B%9F%E5%8C%96/openstack</guid>
+    <description>openstack集群健康检查 openstack-status.</description>
+    <pubDate>Thu, 30 May 2024 01:35:19 GMT</pubDate>
   </item>
     </channel>
   </rss>
