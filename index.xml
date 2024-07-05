@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on 🪴 十二万光年</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>NTP服务配置</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/NTP%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/NTP%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE</guid>
-    <description>Network Time Protocol（网络时间协议，NTP）是一种用于在计算机网络中同步时钟的协议。它通过分布式的时间参考源，确保计算设备具有准确和一致的时间。 安装 在Linux主机上安装NTP服务。不同的Linux发行版可能有不同的安装方法，但通常可以使用包管理器来安装NTP软件包，例如apt、yum或zypper。 配置 在/etc/ntp.</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>go</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</guid>
+    <description>跨平台代码 典型“动态语言思维”的错误 if runtime.GOOS == &quot;windows&quot; { return nil } .</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>linux 出错 task xxxxx 634 blocked for more than 120 seconds</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/linux-%E5%87%BA%E9%94%99-task-xxxxx-634-blocked-for-more-than-120-seconds</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/linux-%E5%87%BA%E9%94%99-task-xxxxx-634-blocked-for-more-than-120-seconds</guid>
-    <description>问题现象 系统挂起，无法响应 SSH无响应，但可以ping通 报错关键信息包含 hung_task_timeout_secs 原因分析 linux kernel bug相关资料显示 By default Linux uses up to 40% of the available memory for file system caching.</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>python</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</guid>
+    <description>初识Python 版本 版本号分为三段，形如A.B.C，版本大更新增加A，新功能增加B，小改动增加C 优缺点 优点 简单，学习曲线低 开放源代码，生态强大 解释型语言移植性强 支持面向对象和函数式编程 代码规范可读性强 缺点 执行效率稍微低 代码无法加密 解释器 官方的Python解释器是用C语言实现的，也是使用最为广泛的Python解释器，通常称之为CPython 应用领域 后端开发、DevOps、爬虫、自动化测试、数据分析、机器学习 运行 单行注释以#开头，多行注释以&#039;&#039;&#039;开头和结尾 # hello world 示例 print(&#039;hello, world!&#039;) 开发工具 安装python 自带集成开发工具IDLE（命令行交互式），实际开发不方便使用，通常使用pycharm或者vscode 语言元素 以python3进行总结 整型 int 0b100 0x100 0o100 浮点型 123.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>mysql</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/mysql</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/mysql</guid>
-    <description>数据库断电无法重启 报错内容 [root@ctl01 ~]# more /var/log/mariadb/mariadb.log 2024-03-13 11:23:59 0 [Note] InnoDB: Using Linux native AIO 2024-03-13 11:23:59 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins 2024-03-13 11:23:59 0 [Note] InnoDB: Uses event mutexes 2024-03-13 11:23:59 0 [Note] InnoDB: Compressed tables use zlib 1.</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>shell</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</guid>
+    <description>下载命令 curl curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent -o - &quot;$url&quot; --fail：如果请求失败（例如HTTP状态码不是2xx），curl会返回非零退出码。 --retry 0：设置最大重试次数为0次。如果下载失败，curl 不会进行重试。 --connect-timeout 1：设置连接超时时间为1秒。如果连接超过1秒仍未建立，curl 将退出并认为连接失败。 --max-time 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl 将退出并认为下载失败。 --retry-delay 1：设置重试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 --remote-time：将远程文件的时间戳设置为本地文件的时间戳。这样可以确保只下载更新的文件。 --silent：静默模式，禁止显示进度和其他信息。 -o -：将远程文件保存到标准输出（stdout），而不是保存到文件中。 短命令 curl -f -s -m 3 -z &quot;$local_file&quot; -o &quot;$output_file&quot; &quot;$url&quot; -f：如果请求失败（例如HTTP状态码不是2xx），则curl会返回非零退出码。 -s：静默模式，禁止显示进度和其他信息。 -m 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl将退出并认为下载失败。 -z &quot;$url&quot;：指定一个时间戳，表示只下载比该时间戳更新的文件。 -o output_file：将下载的内容保存到指定的文件中。 时间戳 curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot; -O &quot;${url}&quot; --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot;：仅当远程文件的时间戳更新或本地文件不存在时，才下载文件。$(echo &quot;${url}&quot; | xargs basename) 提取URL中的文件名作为本地文件的名称。 wget wget -t 1 -T 1 -w 1 -q -O - &quot;$url&quot; -t 1：设置最大尝试次数为1次。如果下载失败，wget 不会进行重试。 -T 1：设置超时时间为1秒。如果下载超过1秒仍未完成，wget 将退出并认为下载失败。 -w 1：设置每个尝试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 -q：静默模式，不显示下载进度和其他信息。 -O -：将下载的内容写入标准输出（stdout）而不是保存到文件中。 .</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>故障排除和性能优化</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96</guid>
-    <description> 故障排除和性能优化 系统故障排查和调优 性能监测和性能优化技术 容量规划和资源管理 .</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>vue</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</guid>
+    <description>安装nodejs 下载地址 Node.js 中文网 (nodejs.com.cn) nodejs安装步骤 Installation · nodejs/help Wiki (github.com) linux安装nodejs参考命令 [root@ctl01 tmp]# tar -xf node-v18.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>鸿蒙OS系统优化</title>
-    <link>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E9%B8%BF%E8%92%99OS%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96</link>
-    <guid>https://chyuhung.github.io/%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4%E5%92%8C%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E9%B8%BF%E8%92%99OS%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96</guid>
-    <description>使用ADB工具，将手机开启调试模式，卸载或禁用系统应用和组件，提升手机运行效率 执行前注意：请务必关闭系统“纯净模式” 前置条件 1、进入设置 → 关于手机，连击 5 次版本号，打开开发者模式 2、进入设置 → 系统和更新 → 开发人员选项，勾选USB 调试和“仅充电”模式下允许 ADB 调试 3、连接手机，选择仅充电，弹出提示框后，勾选允许该电脑通过 USB 调试设备并点击允许按钮 4、打开设置 → 系统和更新 → 纯净模式，选择“退出”并确认，进而关闭“纯净模式”，否则之后会无法安装软件 预置应用 .</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>yum</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/yum</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/yum</guid>
+    <description>本地镜像yum源配置 配置 CentOS 或 RHEL 系统使用 CD-ROM 作为 YUM 源 将 CD-ROM 插入到服务器的 CD/DVD 驱动器中。 创建一个挂载点，用于挂载 CD-ROM： sudo mkdir /mnt/cdrom 挂载 CD-ROM 到挂载点： sudo mount /dev/cdrom /mnt/cdrom 进入 /etc/yum.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>文档和沟通能力</title>
-    <link>https://chyuhung.github.io/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B</link>
-    <guid>https://chyuhung.github.io/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B/%E6%96%87%E6%A1%A3%E5%92%8C%E6%B2%9F%E9%80%9A%E8%83%BD%E5%8A%9B</guid>
-    <description> 文档和沟通能力 技术文档编写和维护 团队协作和沟通能力 问题解决和故障处理技巧 .</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>基础技能</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</guid>
+    <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） .</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>监控和日志管理</title>
-    <link>https://chyuhung.github.io/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86</link>
-    <guid>https://chyuhung.github.io/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E5%92%8C%E6%97%A5%E5%BF%97%E7%AE%A1%E7%90%86</guid>
-    <description> 监控和日志管理 监控系统的搭建和配置（如 Zabbix、Prometheus） 日志管理和分析工具（如 ELK Stack、Splunk） .</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>服务器raid配置</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</guid>
+    <description>磁盘状态描述 UGood（Unconfigured Good，未配置正常）：硬盘状态正常，但还未划分给任何逻辑卷 UBad（Unconfigured Bad，未配置异常）：UGood状态的硬盘出现无法恢复的错误 Onln（Online，在线）：已经设置为某个虚拟硬盘的成员盘，并且处于在线正常可用状态 Offln（Offline，离线）：某个虚拟硬盘的成员盘离线 Missing：Online状态的硬盘脱离RAID组的状态 Rbld（Rebuild，重建）：硬盘正在重建数据 Raid配置工具 MegaCli 基本知识 $ MegaCli -PDList -aALL Adapter #0 #阵列卡号,适配器编号 Enclosure Device ID: 32 #raid卡的ID号 Slot Number: 0 #物理磁盘的slot号,磁盘位置 StorCli 基本知识 c：Controller，控制器，也就是阵列卡 e：Enclosure，附件，一般来讲也就是硬盘背板“硬盘笼” s：Slot，物理硬盘槽位 v：Virtual Drive，虚拟硬盘，也就是逻辑卷 d：Disk Group，硬盘组 f：Foreign configuration file，外部阵列配置 常用命令 命令查看 RAID 控制器信息 storcli /c0 show raid6配置示例，将slot0-9配置为raid6 .</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>ceph</title>
-    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</link>
-    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</guid>
-    <description>查看osd ceph osd tree .</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>物理机</title>
+    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E7%89%A9%E7%90%86%E6%9C%BA</link>
+    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E7%89%A9%E7%90%86%E6%9C%BA</guid>
+    <description>物理机查看网卡速度 cat /sys/class/net/*/speed.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>keepalived</title>
-    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</link>
-    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</guid>
-    <description>Keepalived是一个用于实现高可用性和负载均衡的软件，常用于配置主备服务器或虚拟 IP 地址的故障切换 常规配置 global_defs global_defs包含全局定义的配置项 router_id：定义 Keepalived 实例的唯一标识符 notification_email：定义在故障切换或状态变化时接收通知的电子邮件地址 notification_email_from：定义发送通知的电子邮件地址 smtp_server：指定用于发送电子邮件通知的 SMTP 服务器的地址 smtp_connect_timeout：定义连接到 SMTP 服务器的超时时间 router_id 和 notification_email 是全局定义的必需配置项，而其他配置项是可选的，根据需要进行配置 vrrp_instance vrrp_instance定义一个 VRRP（Virtual Router Redundancy Protocol）实例，用于配置主备服务器或虚拟 IP 地址的故障切换 state：指定服务器的状态，可以是 MASTER、BACKUP 或 FAULT interface：指定用于 VRRP 实例的网络接口 virtual_router_id：定义 VRRP 路由器的唯一标识符 priority：指定服务器的优先级，用于选举 MASTER 服务器 advert_int：定义 VRRP 广告间隔，即发送 VRRP 通告的时间间隔 authentication：指定 VRRP 通信的认证密码 virtual_ipaddress：定义虚拟 IP 地址，当服务器处于 MASTER 状态时，该地址将被分配给服务器 virtual_server virtual_server用于配置负载均衡的虚拟服务器 delay_loop：定义检查服务器健康状态的时间间隔 lb_algo：定义负载均衡算法，例如 rr（轮询）或 wrr（加权轮询） lb_kind：定义负载均衡类型，例如 NAT（网络地址转换）或 DR（直接路由） real_server：定义真实服务器的 IP 地址和端口 配置示例 配置主服务器（MASTER）和备份服务器（BACKUP）的 Keepalived 实例，当主服务器无法正常工作时，备份服务器将接管虚拟 IP 地址并成为活动服务器 Master（主服务器）配置文件 ! 全局定义 global_defs { router_id keepalived_example } ! VRRP 实例 - 主服务器 vrrp_instance VI_1 { state MASTER interface ens3 virtual_router_id 51 priority 100 advert_int 1 authentication { auth_type PASS auth_pass example_password } virtual_ipaddress { 10.</description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>iptables</title>
+    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</link>
+    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</guid>
+    <description>iptables配置 添加 iptables 规则 iptables -A INPUT -p tcp -m iprange --src-range 10.191.195.242-10.191.195.245 --dport 2181 -j ACCEPT iptables -A INPUT -p tcp -m iprange --src-range 10.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item><item>
-    <title>mysql</title>
-    <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</link>
-    <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</guid>
-    <description></description>
-    <pubDate>Thu, 04 Jul 2024 03:45:44 GMT</pubDate>
+    <title>ssh</title>
+    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh</link>
+    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh</guid>
+    <description>ssh免密登录 示例 A为本地主机，BC为远程服务器 使用ssh-keygen生成密钥对 ssh-keygen 安装ssh-copy-id命令 yum install openssh-clients 拷贝生成的公钥到远程服务器BC，即可在本地主机免密登录远程服务器BC ssh-copy-id -i ~/.</description>
+    <pubDate>Fri, 05 Jul 2024 07:22:38 GMT</pubDate>
   </item>
     </channel>
   </rss>
