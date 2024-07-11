@@ -6,65 +6,65 @@
       <description>最近的10条笔记 on 🪴 十二万光年</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>git</title>
+    <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</link>
+    <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</guid>
+    <description>删除本地分支并同步远程 要删除本地分支并同步到远程仓库：首先删除本地分支，然后删除远程分支 1. 删除本地分支 可以使用 git branch 命令来列出所有分支，然后使用 git branch -d &lt;branch_name&gt; 或 git branch -D &lt;branch_name&gt; 来删除本地分支。 -d 选项用于删除已经合并到当前分支的分支。 -D 选项用于强制删除尚未合并的分支（请注意大写 “D”）。 例如，要删除名为 feature-branch 的本地分支，可以执行： git branch -d feature-branch 或者，如果该分支尚未合并，则使用： git branch -D feature-branch 2.</description>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>github actions</title>
+    <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</link>
+    <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</guid>
+    <description></description>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
+  </item><item>
+    <title>自动化和编程</title>
+    <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</link>
+    <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</guid>
+    <description> 自动化和编程 自动化工具（如 Ansible、Chef、Puppet） 脚本编程和编写自动化脚本 版本控制系统（如 Git、SVN） .</description>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
+  </item><item>
     <title>go</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/go</guid>
     <description>跨平台代码 典型“动态语言思维”的错误 if runtime.GOOS == &quot;windows&quot; { return nil } .</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>python</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/python</guid>
     <description>初识Python 版本 版本号分为三段，形如A.B.C，版本大更新增加A，新功能增加B，小改动增加C 优缺点 优点 简单，学习曲线低 开放源代码，生态强大 解释型语言移植性强 支持面向对象和函数式编程 代码规范可读性强 缺点 执行效率稍微低 代码无法加密 解释器 官方的Python解释器是用C语言实现的，也是使用最为广泛的Python解释器，通常称之为CPython 应用领域 后端开发、DevOps、爬虫、自动化测试、数据分析、机器学习 运行 单行注释以#开头，多行注释以&#039;&#039;&#039;开头和结尾 # hello world 示例 print(&#039;hello, world!&#039;) 开发工具 安装python 自带集成开发工具IDLE（命令行交互式），实际开发不方便使用，通常使用pycharm或者vscode 语言元素 以python3进行总结 整型 int 0b100 0x100 0o100 浮点型 123.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>shell</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/shell</guid>
     <description>下载命令 curl curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent -o - &quot;$url&quot; --fail：如果请求失败（例如HTTP状态码不是2xx），curl会返回非零退出码。 --retry 0：设置最大重试次数为0次。如果下载失败，curl 不会进行重试。 --connect-timeout 1：设置连接超时时间为1秒。如果连接超过1秒仍未建立，curl 将退出并认为连接失败。 --max-time 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl 将退出并认为下载失败。 --retry-delay 1：设置重试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 --remote-time：将远程文件的时间戳设置为本地文件的时间戳。这样可以确保只下载更新的文件。 --silent：静默模式，禁止显示进度和其他信息。 -o -：将远程文件保存到标准输出（stdout），而不是保存到文件中。 短命令 curl -f -s -m 3 -z &quot;$local_file&quot; -o &quot;$output_file&quot; &quot;$url&quot; -f：如果请求失败（例如HTTP状态码不是2xx），则curl会返回非零退出码。 -s：静默模式，禁止显示进度和其他信息。 -m 3：设置总体超时时间为3秒。如果下载超过3秒仍未完成，curl将退出并认为下载失败。 -z &quot;$url&quot;：指定一个时间戳，表示只下载比该时间戳更新的文件。 -o output_file：将下载的内容保存到指定的文件中。 时间戳 curl --fail --retry 0 --connect-timeout 1 --max-time 3 --retry-delay 1 --remote-time --silent --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot; -O &quot;${url}&quot; --time-cond &quot;$(echo &quot;${url}&quot; | xargs basename)&quot;：仅当远程文件的时间戳更新或本地文件不存在时，才下载文件。$(echo &quot;${url}&quot; | xargs basename) 提取URL中的文件名作为本地文件的名称。 wget wget -t 1 -T 1 -w 1 -q -O - &quot;$url&quot; -t 1：设置最大尝试次数为1次。如果下载失败，wget 不会进行重试。 -T 1：设置超时时间为1秒。如果下载超过1秒仍未完成，wget 将退出并认为下载失败。 -w 1：设置每个尝试之间的等待时间为1秒。这样可以在尝试下载之间增加一些延迟，以降低对服务器的负载。 -q：静默模式，不显示下载进度和其他信息。 -O -：将下载的内容写入标准输出（stdout）而不是保存到文件中。 .</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>vue</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/vue</guid>
     <description>安装nodejs 下载地址 Node.js 中文网 (nodejs.com.cn) nodejs安装步骤 Installation · nodejs/help Wiki (github.com) linux安装nodejs参考命令 [root@ctl01 tmp]# tar -xf node-v18.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>yum</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/yum</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/yum</guid>
     <description>本地镜像yum源配置 配置 CentOS 或 RHEL 系统使用 CD-ROM 作为 YUM 源 将 CD-ROM 插入到服务器的 CD/DVD 驱动器中。 创建一个挂载点，用于挂载 CD-ROM： sudo mkdir /mnt/cdrom 挂载 CD-ROM 到挂载点： sudo mount /dev/cdrom /mnt/cdrom 进入 /etc/yum.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>基础技能</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD</guid>
     <description> 基础技能 操作系统（如 Linux、Unix、Windows）的基本原理和命令行操作 网络协议和网络基础知识 编程基础（如 Python、Shell、Perl） .</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item><item>
     <title>服务器raid配置</title>
     <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</link>
     <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E6%9C%8D%E5%8A%A1%E5%99%A8raid%E9%85%8D%E7%BD%AE</guid>
     <description>磁盘状态描述 UGood（Unconfigured Good，未配置正常）：硬盘状态正常，但还未划分给任何逻辑卷 UBad（Unconfigured Bad，未配置异常）：UGood状态的硬盘出现无法恢复的错误 Onln（Online，在线）：已经设置为某个虚拟硬盘的成员盘，并且处于在线正常可用状态 Offln（Offline，离线）：某个虚拟硬盘的成员盘离线 Missing：Online状态的硬盘脱离RAID组的状态 Rbld（Rebuild，重建）：硬盘正在重建数据 Raid配置工具 MegaCli 基本知识 $ MegaCli -PDList -aALL Adapter #0 #阵列卡号,适配器编号 Enclosure Device ID: 32 #raid卡的ID号 Slot Number: 0 #物理磁盘的slot号,磁盘位置 StorCli 基本知识 c：Controller，控制器，也就是阵列卡 e：Enclosure，附件，一般来讲也就是硬盘背板“硬盘笼” s：Slot，物理硬盘槽位 v：Virtual Drive，虚拟硬盘，也就是逻辑卷 d：Disk Group，硬盘组 f：Foreign configuration file，外部阵列配置 常用命令 命令查看 RAID 控制器信息 storcli /c0 show raid6配置示例，将slot0-9配置为raid6 .</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
-  </item><item>
-    <title>物理机</title>
-    <link>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E7%89%A9%E7%90%86%E6%9C%BA</link>
-    <guid>https://chyuhung.github.io/%E5%9F%BA%E7%A1%80%E6%8A%80%E8%83%BD/%E7%89%A9%E7%90%86%E6%9C%BA</guid>
-    <description>物理机查看网卡速度 cat /sys/class/net/*/speed.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
-  </item><item>
-    <title>iptables</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/iptables</guid>
-    <description>iptables配置 添加 iptables 规则 iptables -A INPUT -p tcp -m iprange --src-range 10.191.195.242-10.191.195.245 --dport 2181 -j ACCEPT iptables -A INPUT -p tcp -m iprange --src-range 10.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
-  </item><item>
-    <title>ssh</title>
-    <link>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh</link>
-    <guid>https://chyuhung.github.io/%E5%AE%89%E5%85%A8%E5%92%8C%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/ssh</guid>
-    <description>ssh免密登录 示例 A为本地主机，BC为远程服务器 使用ssh-keygen生成密钥对 ssh-keygen 安装ssh-copy-id命令 yum install openssh-clients 拷贝生成的公钥到远程服务器BC，即可在本地主机免密登录远程服务器BC ssh-copy-id -i ~/.</description>
-    <pubDate>Wed, 10 Jul 2024 03:47:07 GMT</pubDate>
+    <pubDate>Thu, 11 Jul 2024 06:15:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
