@@ -10,61 +10,61 @@
     <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</link>
     <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/ceph</guid>
     <description>osd down 处理 检查集群状态 ceph -s 查看osd tree ceph osd tree | more 恢复osd 登录对应节点，重启osd service ceph status osd.77 service ceph restart osd.77 检查osd up ceph osd tree | more 查看ceph osd ps -aux|grep ceph-osd ps -ef|grep ceph-osd 数据recovery流量控制 本质上，用户数据写入ceph时，会被切分成大小相等的object，这些object由PG承载，分布到不同的OSD上（每个OSD一般会对应一块硬盘）。数据的迁移会以PG为单位进行，所以当PG发生变化时，就会有数据rebalance。 后端的数据均衡IO会对client的IO造成影响从而影响到集群的业务IO，所以我们需要对数据均衡IO进行控制，主要是业务优先和恢复优先。 业务优先 ceph tell osd.</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>keepalived</title>
     <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</link>
     <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/keepalived</guid>
     <description>Keepalived是一个用于实现高可用性和负载均衡的软件，常用于配置主备服务器或虚拟 IP 地址的故障切换 常规配置 global_defs global_defs包含全局定义的配置项 router_id：定义 Keepalived 实例的唯一标识符 notification_email：定义在故障切换或状态变化时接收通知的电子邮件地址 notification_email_from：定义发送通知的电子邮件地址 smtp_server：指定用于发送电子邮件通知的 SMTP 服务器的地址 smtp_connect_timeout：定义连接到 SMTP 服务器的超时时间 router_id 和 notification_email 是全局定义的必需配置项，而其他配置项是可选的，根据需要进行配置 vrrp_instance vrrp_instance定义一个 VRRP（Virtual Router Redundancy Protocol）实例，用于配置主备服务器或虚拟 IP 地址的故障切换 state：指定服务器的状态，可以是 MASTER、BACKUP 或 FAULT interface：指定用于 VRRP 实例的网络接口 virtual_router_id：定义 VRRP 路由器的唯一标识符 priority：指定服务器的优先级，用于选举 MASTER 服务器 advert_int：定义 VRRP 广告间隔，即发送 VRRP 通告的时间间隔 authentication：指定 VRRP 通信的认证密码 virtual_ipaddress：定义虚拟 IP 地址，当服务器处于 MASTER 状态时，该地址将被分配给服务器 virtual_server virtual_server用于配置负载均衡的虚拟服务器 delay_loop：定义检查服务器健康状态的时间间隔 lb_algo：定义负载均衡算法，例如 rr（轮询）或 wrr（加权轮询） lb_kind：定义负载均衡类型，例如 NAT（网络地址转换）或 DR（直接路由） real_server：定义真实服务器的 IP 地址和端口 配置示例 配置主服务器（MASTER）和备份服务器（BACKUP）的 Keepalived 实例，当主服务器无法正常工作时，备份服务器将接管虚拟 IP 地址并成为活动服务器 Master（主服务器）配置文件 ! 全局定义 global_defs { router_id keepalived_example } ! VRRP 实例 - 主服务器 vrrp_instance VI_1 { state MASTER interface ens3 virtual_router_id 51 priority 100 advert_int 1 authentication { auth_type PASS auth_pass example_password } virtual_ipaddress { 10.</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>mysql</title>
     <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</link>
     <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/mysql</guid>
     <description></description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>pgsql</title>
     <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</link>
     <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/pgsql</guid>
     <description></description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>网络和存储管理</title>
     <link>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</link>
     <guid>https://chyuhung.github.io/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86/%E7%BD%91%E7%BB%9C%E5%92%8C%E5%AD%98%E5%82%A8%E7%AE%A1%E7%90%86</guid>
     <description> 网络和存储管理 网络设备的配置和管理 存储管理和数据备份策略 数据库管理（如 MySQL、PostgreSQL、MongoDB） .</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>jinja2</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/Jinja2</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/Jinja2</guid>
     <description>特点 语法简洁：Jinja2使用简洁而易读的语法，使用大括号{{ }}表示变量插值，使用{% %}表示控制流语句（如条件和循环），以及使用{# #}表示注释 变量插值：Jinja2允许在模板中插入变量的值。可以将变量直接插入到模板中，或者使用过滤器对变量进行处理和格式化 控制流语句：Jinja2支持条件语句（如if、else、elif）和循环语句（如for、while）。这些语句允许根据条件或迭代集合来控制模板的输出 模板继承：Jinja2支持模板继承，可以定义一个基础模板（父模板），然后在派生模板（子模板）中根据需要重写和扩展父模板的内容 过滤器和函数：Jinja2提供了多个内置过滤器和函数，用于对变量进行处理和转换。可以使用这些过滤器和函数对变量进行格式化、截取、排序等操作 宏（Macro）：宏是一种用于定义可重用代码块的机制。可以使用宏来定义一段代码，并在模板的其他地方多次调用该代码块 自定义扩展：Jinja2允许开发者自定义扩展，以增加额外的功能和语法。可以编写自定义过滤器、函数、测试等，以满足特定的需求 短横线 在Jinja2模板语言中，花括号 { 和 } 用来包裹模板标签，而短横线 - 在某些情况下用于移除生成的HTML或文本输出中的空白字符，包括换行和空格。在循环 {% for .</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>ansible</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/ansible</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/ansible</guid>
     <description>简介 基于Python开源的自动化工具，用于配置管理、部署、编排和远程执行任务，它使用SSH协议进行通信，由Paramiko（Python库）、 PyYAML和Jinja2 ( 模板化 ) 三个关键模块实现，并使用基于YAML的描述文件来定义任务和配置 特性 模块化 无客户端 主从模式 幂等性 关键参数 主机清单（Inventory）：主机清单是一个YAML或INI格式的文件，用于定义受管理的主机和主机组，它指定了Ansible将在哪些主机上执行任务 模块（Module）：模块是Ansible的基本执行单元，用于在目标主机上执行特定的任务，Ansible提供了丰富的模块库，包括文件操作、软件包管理、用户管理等各种功能 Playbook（剧本）：Playbook是一个YAML格式的文件，用于定义一系列任务和配置的顺序，它描述了Ansible在目标主机上执行的操作流程，包括主机选择、任务执行和变量设置等 角色（Role）：角色是一种组织和复用任务和配置的方法，它将相关的任务、变量和文件组织在一起，以便在多个Playbook中重复使用 变量（Variable）：变量用于存储和传递数据，在Playbook中可以使用变量来实现灵活的配置，变量可以在主机清单、Playbook和角色中定义，并可以通过模板或命令行参数进行动态设置 Handlers：Handlers是一种特殊的任务，它用于响应其他任务的状态变化，当某个任务发生变化时，Handlers可以触发相应的操作，如重新启动服务、重新加载配置等 模板（Template）：模板是一种用于生成配置文件的机制，Ansible使用jinja2模板引擎，可以在模板中使用变量和条件语句来动态生成配置文件 Vault：Vault用于安全地存储敏感信息，如密码和密钥，它可以加密和解密Ansible的变量文件，以防止敏感信息泄露 开始 [root@localhost ~]# ansible localhost -m command -a &#039;echo hello world!&#039; localhost | CHANGED | rc=0 &gt;&gt; hello world! Ad-Hoc 简短地指令，指令操作模式 [root@localhost ansible]# ansible local -m ping 10.</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>git</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/git</guid>
     <description>删除本地分支并同步远程 要删除本地分支并同步到远程仓库：首先删除本地分支，然后删除远程分支 1. 删除本地分支 可以使用 git branch 命令来列出所有分支，然后使用 git branch -d &lt;branch_name&gt; 或 git branch -D &lt;branch_name&gt; 来删除本地分支。 -d 选项用于删除已经合并到当前分支的分支。 -D 选项用于强制删除尚未合并的分支（请注意大写 “D”）。 例如，要删除名为 feature-branch 的本地分支，可以执行： git branch -d feature-branch 或者，如果该分支尚未合并，则使用： git branch -D feature-branch 2.</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>github actions</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/github-actions</guid>
     <description></description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item><item>
     <title>自动化和编程</title>
     <link>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</link>
     <guid>https://chyuhung.github.io/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%92%8C%E7%BC%96%E7%A8%8B</guid>
     <description> 自动化和编程 自动化工具（如 Ansible、Chef、Puppet） 脚本编程和编写自动化脚本 版本控制系统（如 Git、SVN） .</description>
-    <pubDate>Thu, 25 Jul 2024 08:49:04 GMT</pubDate>
+    <pubDate>Thu, 25 Jul 2024 08:53:59 GMT</pubDate>
   </item>
     </channel>
   </rss>
